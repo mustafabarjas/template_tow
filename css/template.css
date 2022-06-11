@@ -18,6 +18,7 @@ html{
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    max-width:100%;
 }
 ul{
     list-style: none;
@@ -56,7 +57,7 @@ padding: 100px;
 .main-heading h2{
     position: relative;
     margin: 0px auto 100px;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -436,51 +437,7 @@ transform: rotate(2deg) scale(1.1);
         text-transform: uppercase;
     }
 /* End portefolio */
-/* Start vedio */
-.vedio{
-    position: relative;
-}
-.vedio::before{
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 40%);
-}
-.vedio video{
-    width: 100%;
-}
-.vedio .text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    background-color: var(--transperant-color);
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    color: white;
-}
 
-.text h2{
-  text-transform: uppercase;
-  padding-bottom: 30px;
-  padding-top: 20px;
-  font-weight: normal;
-}
-.text p{
- margin-bottom: 20px;
-}
-.text button{
-    background-color: black;
-    text-transform: uppercase;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-}
-/* End vedio */
 /* Start About */
 .about{
     padding-top: var(--padding-section);
